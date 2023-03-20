@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 12%;
+    background-color: rgb(250, 244, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo {
+    width: 55%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.imgMobil {
+    display: none;
+}
+
+.imgDesk {
+    width: 300px;
+    display: flex; 
+    justify-content:flex-end;
+}
+
+article {
+    margin: 1.5rem;
+    padding: .2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(153, 11, 11) solid;
+}
+
+.perfume {
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 1rem;
+    letter-spacing: .3rem;
+    color: rgb(167, 166, 166);
+   
+}
+
+.nombre {
+    margin: 1rem 0;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+}
+
+.description {
+    margin: .9rem 0;
+    font-size: .9rem;
+    line-height: 1.4rem;
+    color:hsl(228, 12%, 48%);
+}
+
+.prices {
+    margin: 1rem 0;
+    height: 12%;
+    display: flex;
+    border: 2px rgb(153, 11, 11) solid;
+}
+
+.finalprice {
+    color: #3D8168;
+    font-weight: solid;
+    font-size: 2rem;
+    font-family: 'Fraunces', sans-serif;
+}
+
+footer {
+    border: 2px rgb(153, 11, 11) solid;
+}
