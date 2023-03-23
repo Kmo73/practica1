@@ -11,12 +11,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /*border: 2px rgb(153, 11, 11) solid;*/
+    
 }
 
 .fondo {
     width: 55%;
+    margin-top: 1rem;
     display: flex;
     background-color: rgb(255, 255, 255);
+    border-radius: .7rem;
 }
 
 .imgMobil {
@@ -27,15 +31,15 @@ body {
     width: 300px;
     display: flex; 
     justify-content:flex-end;
+    border-radius: .7rem 0 0 .7rem;
 }
 
 article {
-    margin: 1.5rem;
+    margin: 1.7rem;
     padding: .2rem;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    border: 2px rgb(153, 11, 11) solid;
 }
 
 .perfume {
@@ -59,14 +63,14 @@ article {
     margin: .9rem 0;
     font-size: .9rem;
     line-height: 1.4rem;
-    color:hsl(228, 12%, 48%);
+    color:rgb(167, 166, 166);
 }
 
 .prices {
     margin: 1rem 0;
     height: 12%;
     display: flex;
-    border: 2px rgb(153, 11, 11) solid;
+    align-items: center;
 }
 
 .finalprice {
@@ -76,6 +80,28 @@ article {
     font-family: 'Fraunces', sans-serif;
 }
 
+.priceundiscount {
+    padding-left: 1rem;
+    font-size: .8rem;
+    color: rgb(167, 166, 166);
+    text-decoration: line-through;
+}
+
+.carrito > button {
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    background-color: #3D8168;
+    color: white;
+    font-size: 1rem;
+    font-weight: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 footer {
-    border: 2px rgb(153, 11, 11) solid;
+    /*border: 2px rgb(153, 11, 11) solid;*/
+
 }
