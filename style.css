@@ -16,7 +16,7 @@ body {
 }
 
 .fondo {
-    width: 41%;
+    width: 75vh;
     height: 56.5vh;
     margin-top: 1rem;
     display: flex;
@@ -29,7 +29,7 @@ body {
 }
 
 .imgDesk {
-    width: 300px;
+    width: 18.75rem;
     display: flex; 
     justify-content:flex-end;
     border-radius: .7rem 0 0 .7rem;
@@ -112,4 +112,20 @@ button:hover {
 footer {
     position: fixed;
     bottom: .2rem;
+}
+
+@media (max-width: 375px){
+
+
+    .fondo {
+       flex-direction: column;
+    }
+
+    .imgDesk{
+        display: none;
+    }
+    
+    .imgMobil {
+        display: inline;
+    }
 }
