@@ -5,18 +5,19 @@
 }
 
 body {
-    margin: 12%;
+    min-height: 100vh;
     background-color: rgb(250, 244, 237);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*border: 2px rgb(153, 11, 11) solid;*/
+    border: 2px rgb(153, 11, 11) solid;
     
 }
 
 .fondo {
-    width: 55%;
+    width: 41%;
+    height: 56.5vh;
     margin-top: 1rem;
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -52,7 +53,7 @@ article {
 }
 
 .nombre {
-    margin: 1rem 0;
+    margin: 1.2rem 0;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', sans-serif;
     font-size: 1.7rem;
@@ -60,14 +61,14 @@ article {
 }
 
 .description {
-    margin: .9rem 0;
+    margin: 1rem 0;
     font-size: .9rem;
+    font-weight: 500;
     line-height: 1.4rem;
-    color:rgb(167, 166, 166);
+    color:rgb(144, 141, 141);
 }
 
 .prices {
-    margin: 1rem 0;
     height: 12%;
     display: flex;
     align-items: center;
@@ -88,20 +89,27 @@ article {
 }
 
 .carrito > button {
+    margin: 2rem 0;
     width: 100%;
     height: 3rem;
     border-radius: .5rem;
     background-color: #3D8168;
     color: white;
-    font-size: 1rem;
-    font-weight: solid;
+    font-size: .9rem;
+    font-weight:800;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-footer {
-    /*border: 2px rgb(153, 11, 11) solid;*/
+button:hover {
+    background-color: hsl(159, 81%, 14%);
+    cursor: pointer;
 
+}
+
+footer {
+    position: fixed;
+    bottom: .2rem;
 }
